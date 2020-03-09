@@ -12,5 +12,5 @@ first_class_student = int(input("Enter the number of first class students: "))
 second_class_student = int(input("Enter the number of second class students: "))
 third_class_student = int(input("Enter the number of third class students: "))
 
-total_desks = ((first_class_student // 2 + first_class_student % 2) + (second_class_student // 2 + second_class_student % 2) + (third_class_student // 2 + third_class_student % 2))
+total_desks = ((first_class_student // 2 +  first_class_student % 2) + (second_class_student // 2 + second_class_student % 2) + (third_class_student // 2 + third_class_student % 2))
 print("We need",total_desks, "desks in total")
